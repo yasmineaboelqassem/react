@@ -1,0 +1,13 @@
+/* الأسلوب العادي للعرض */
+.image {
+    display: block;
+  }
+  
+  /* استخدام @media لتحديد التصميم عند تصغير الشاشة */
+  @media only screen and (max-width:300px) {
+    .image {
+      display:flex;
+      width: 100%;
+    }
+  }
+  
